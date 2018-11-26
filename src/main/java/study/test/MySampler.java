@@ -7,6 +7,8 @@ import org.apache.jmeter.samplers.SampleResult;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.net.URLEncoder;
+
 public class MySampler extends AbstractJavaSamplerClient {
 
     Logger LOGGER = LoggerFactory.getLogger(MySampler.class);
@@ -60,6 +62,13 @@ public class MySampler extends AbstractJavaSamplerClient {
      */
     @Override
     public void setupTest(JavaSamplerContext context) {
+
+    }
+
+    public static void main(String[] args) throws Exception {
+        String str = "'";
+
+        System.out.println(URLEncoder.encode(str, "UTF-8"));
 
     }
 }

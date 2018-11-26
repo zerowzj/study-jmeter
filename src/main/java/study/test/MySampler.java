@@ -9,7 +9,7 @@ import org.slf4j.LoggerFactory;
 
 public class MySampler extends AbstractJavaSamplerClient {
 
-    Logger LOGGER = LoggerFactory.getLogger(MySampler.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(MySampler.class);
 
     /**
      * 测试，从cxt参数可以获得参数值

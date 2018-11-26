@@ -44,7 +44,6 @@ public class MySampler extends AbstractJavaSamplerClient {
         Arguments params = new Arguments();
         params.addArgument("num1", "");
         params.addArgument("num2", "");
-        params.addEmptyArgument();
         return params;
     }
 

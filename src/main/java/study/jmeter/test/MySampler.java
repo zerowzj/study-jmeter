@@ -1,4 +1,4 @@
-package study.test;
+package study.jmeter.test;
 
 import org.apache.jmeter.config.Arguments;
 import org.apache.jmeter.protocol.java.sampler.AbstractJavaSamplerClient;
